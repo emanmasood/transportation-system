@@ -1,0 +1,124 @@
+.navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+  .container-fluid_text-center{
+     background-image: url(../image/bus3.jpg);
+     background-attachment: all; 
+    }
+    /* Set height of the grid so .sidenav can be 100% (adjust as needed) */
+.row.content {
+  height: 800px;
+  min-height: 100%;
+    }
+    
+    /* Set gray background color and 100% height */
+.sidenav {
+      padding-top: 20px;
+    
+      height: 100%;
+
+    }
+
+button{
+
+  background: #ffe6e6;
+  width: 150px;
+  height: 60px;
+  color: #fff;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 15px 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-position: center;
+}
+
+.save{
+  background: #fff;
+  width: 200px;
+  height: 50px;
+  color:black;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 15px;
+  margin: 20px 175px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  background-position: center;
+
+}
+
+.col-sm-10_text-left{ 
+  margin: -300px 500px;
+  background: #ffe6e6;
+  width: 550px;
+  height: 550px;
+  padding: 10px;
+    border-radius: 20px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background-position: center;
+}
+.cn{
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 250px;
+  border: 1px solid #999;
+  outline: none;
+  margin-left: 150px;
+  
+}
+
+
+p{
+  text-align: center;
+  font-family: cursive;
+  font-size: 150%;
+}
+.a{
+  text-align: center;
+  font-family: cursive;
+
+}
+.ab{
+  border-radius: 20px;
+  padding: 10px;
+  margin: 10px 0;
+  width: 250px;
+  border: 1px solid #999;
+  outline: none;
+}
+
+.close{
+margin-top:-20px;
+} 
+.alert{
+ height: 50px;
+
+
+}  
+    /* Set black background color, white text and some padding */
+ footer {
+      background-color: #555;
+      color: white;
+      padding: 15px; 
+      width: auto;
+      height: 300px;
+    }
+    
+    /* On small screens, set height to 'auto' for sidenav and grid */
+ @media screen and (max-width: 767px) {
+      .sidenav {
+        height: auto;
+        padding: 15px;
+      }
+      .row.content {height:auto;} 
+    }

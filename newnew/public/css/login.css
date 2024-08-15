@@ -1,0 +1,67 @@
+body{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	background-size: auto;
+	background-position: 0px 50px;
+	background-image: url(image/bus3.jpg);
+    background-attachment: all; 
+}
+
+.container-fluid_text-center{
+     width: 300px;
+	box-shadow: 0 0 3px 0 rgba(0,0,0,0.3);
+	background: #ffe6e6;
+	padding: 20px;
+	margin: 8% auto 0;
+	text-align: center;
+	border-radius: 20px;
+    font-size: 15px;
+	border: none;
+	outline: none;
+	
+	background-position: center;
+    }
+
+
+h1{
+	font-family: cursive;
+	}
+.email{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 90%;
+	border: 1px solid #999;
+	outline: none;
+}
+.pass{
+	border-radius: 20px;
+	padding: 10px;
+	margin: 10px 0;
+	width: 90%;
+	border: 1px solid #999;
+	outline: none;
+}
+button{
+	color: #000;
+	width: 90%;
+	padding: 10px;
+	border-radius: 20px;
+	font-size: 15px;
+	margin: 10px 0;
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+.signb{
+	background-color: #fff;
+}
+a{
+	text-decoration: none;
+}
+
+
+
+    
+  
